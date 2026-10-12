@@ -1,4 +1,9 @@
 package petshop;
 
-public class Tosa {
+public class Tosa implements Servico{
+
+    @Override
+    public void executar(String nomePet){
+        System.out.println("Tosando o pet " + nomePet);
+    }
 }
